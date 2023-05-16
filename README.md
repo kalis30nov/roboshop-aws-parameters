@@ -1,1 +1,1 @@
-# roboshop-aws-parameters
+# roboshop-aws-ssm-parameters

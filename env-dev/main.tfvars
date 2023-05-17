@@ -7,6 +7,8 @@ parameters = [
   { name = "dev.catalouge.mongodb_url", value = "mongodb-dev.kalis30nov.online" },
   { name = "dev.catalouge.mongodb_repo_url", value = "mongodb://mongodb-dev.kalis30nov.online:27017/catalogue" },
   { name = "dev.catalouge.mongodb", value = "MONGO=true" }
-]
 
-#test
+  { name = "dev.user.env", value = "MONGO=true" }
+  { name = "dev.user.REDIS_HOST", value = "redis-dev.kalis30nov.online" }
+  { name = "dev.user.MONGO_URL", value = "mongodb://mongodb-dev.kalis30nov.online:27017/users" }
+]

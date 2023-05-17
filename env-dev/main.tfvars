@@ -13,4 +13,6 @@ parameters = [
   { name = "dev.cart.REDIS_HOST", value = "redis-dev.kalis30nov.online" },
   { name = "dev.cart.CATALOGUE_HOST", value = "catalogue-dev.kalis30nov.online" },
   { name = "dev.cart.CATALOGUE_PORT", value = "8080" }
+  { name = "dev.shipping.CART_ENDPOINT", value = "cart-dev.kalis30nov.online:8080" },
+  { name = "dev.shipping.DB_HOST", value = "mysql-dev.kalis30nov.online" }
 ]

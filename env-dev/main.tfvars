@@ -8,3 +8,5 @@ parameters = [
   { name = "dev.catalouge.mongodb_repo_url", value = "mongodb://mongodb-dev.kalis30nov.online:27017/catalogue" },
   { name = "dev.catalouge.mongodb", value = "MONGO=true" }
 ]
+
+#test

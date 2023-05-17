@@ -11,6 +11,6 @@ parameters = [
   { name = "dev.user.REDIS_HOST", value = "redis-dev.kalis30nov.online" },
   { name = "dev.user.MONGO_URL", value = "mongodb://mongodb-dev.kalis30nov.online:27017/users" },
   { name = "dev.cart.REDIS_HOST", value = "redis-dev.kalis30nov.online" },
-  { name = "CATALOGUE_HOST", value = "catalogue-dev.kalis30nov.online" },
-  { name = "CATALOGUE_PORT", value = "8080" }
+  { name = "dev.cart.CATALOGUE_HOST", value = "catalogue-dev.kalis30nov.online" },
+  { name = "dev.cart.CATALOGUE_PORT", value = "8080" }
 ]

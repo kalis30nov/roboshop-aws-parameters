@@ -8,6 +8,7 @@ parameters = [
   { name = "dev.catalogue.mongodb", value = "MONGO=true" },
   { name = "dev.catalogue.mongodb_url ", value = "mongodb-dev.kalis30nov.online" },
   { name = "dev.user.env", value = "MONGO=true" },
+  { name = "dev.user.mongodb_url", value = "mongodb-dev.kalis30nov.online" },
   { name = "dev.user.REDIS_HOST", value = "redis-dev.kalis30nov.online" },
   { name = "dev.user.MONGO_URL", value = "mongodb://mongodb-dev.kalis30nov.online:27017/users" },
   { name = "dev.cart.REDIS_HOST", value = "redis-dev.kalis30nov.online" },
@@ -29,3 +30,6 @@ passwords = [
   { name = "dev.shipping.password", value = "RoboShop@1" },
   { name = "dev.payment.AMQP_PASS", value = "roboshop123" }
 ]
+
+
+
